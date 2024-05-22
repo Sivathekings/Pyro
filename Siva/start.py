@@ -13,12 +13,12 @@ START_BUTTON = [[
 
 @Client.on_message(filters.command("start"))
 async def start_cmd(client, msg):
-    await msg.reply_text(
-        PM_TEXT =f"""
+PM_TEXT =f"""
 Hello {msg.from_user.first_name} ⚡,
 I am Shiva robot...
 I am at construction. 
-    """
+"""
+    await msg.reply_text(
         text =  PM_TEXT,
         reply_markup=InlineKeyboardMarkup(START_BUTTON)
         
