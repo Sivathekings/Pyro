@@ -18,8 +18,9 @@ Hello {msg.from_user.first_name} ⚡,
 I am Shiva robot...
 I am at construction. 
 """
-    await msg.reply_text(
-        text =  PM_TEXT,
+    await msg.reply_photo(
+        photo="https://telegra.ph/file/8ca45a14bf4a8788ae79b.jpg",
+        caption = PM_TEXT,
         reply_markup=InlineKeyboardMarkup(START_BUTTON)
         
     )
