@@ -5,4 +5,4 @@ Siva = Client(
     api_id = "",
     api_hash = "",
     bot_token = "",
-    plugins=root(dict("Siva"))
+    plugins=dict(root="Siva")
