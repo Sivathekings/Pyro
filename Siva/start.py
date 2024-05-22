@@ -18,6 +18,9 @@ Hello {msg.from_user.first_name} ⚡,
 I am Shiva robot...
 I am at construction. 
 """
+    reply1 = await msg.reply_text("`Starting...`")
+    await asyncio.sleep(0.9)
+    await reply1.delete()
     await msg.reply_photo(
         photo="https://telegra.ph/file/8ca45a14bf4a8788ae79b.jpg",
         caption = PM_TEXT,
