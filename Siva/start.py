@@ -5,7 +5,7 @@ import random
 
 
 PM_TEXT = f"""
-Hello {message.from_user.first_name} ⚡,
+Hello {msg.from_user.first_name} ⚡,
 I am Shiva robot...
 I am at construction. 
 """
