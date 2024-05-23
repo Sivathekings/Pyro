@@ -17,6 +17,9 @@ print("bot is started")
 
 async def main():
     async with Siva:
-        await Siva.send_message(text="I am perfectly deployed")
+        await Siva.send_message(
+            chat_id = -1002219227853,
+            text="I am perfectly deployed"
+        )
 
 Siva.run(main())
