@@ -11,4 +11,12 @@ Siva = Client(
 
 
 print("bot is started")
-Siva.run()
+
+
+
+
+async def main():
+    async with Siva:
+        await Siva.send_message("I am perfectly deployed)
+
+Siva.run(main())
