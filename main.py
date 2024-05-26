@@ -15,11 +15,11 @@ print("bot is started")
 
 
 
-async def main():
-    async with Siva:
-        await Siva.send_message(
+if __name__ == "__main__":
+    with Siva:
+        Siva.send_message(
             chat_id = -1002219227853,
             text="I am perfectly deployed"
         )
 
-Siva.run(main())
+Siva.run()
