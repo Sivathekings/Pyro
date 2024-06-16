@@ -11,15 +11,4 @@ Siva = Client(
 
 
 print("bot is started")
-
-
-
-
-if __name__ == "__main__":
-    with Siva:
-        Siva.send_message(
-            chat_id = -4283612947,
-            text="I am perfectly deployed"
-        )
-
 Siva.run()
